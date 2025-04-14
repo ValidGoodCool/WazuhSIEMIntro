@@ -4,7 +4,7 @@ Following John Hammonds Wazuh SIEM intro Lab.
 ## Steps
 
 ## Step 1: Create VM for Wazuh Server
-- Use Virtual Machine Manager (virtmanager) to create an Ubuntu VM on local linux machine. Used system requirements as per Wazuh docucmentation.
+- Use Virtual Machine Manager (virt-manager) to create an Ubuntu 22.04 VM on local linux machine. Used system requirements as per Wazuh docucmentation. ![image](https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/WazuhVMReqs.png?raw=true)
 
 ## Step 2: Install Wazuh Manager/Server onto Ubuntu Server VM
 
