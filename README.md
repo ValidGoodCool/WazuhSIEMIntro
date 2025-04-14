@@ -4,10 +4,15 @@ Following John Hammonds Wazuh SIEM intro Lab.
 ## Steps
 
 ## Step 1: Create VM for Wazuh Server
-- Use Virtual Machine Manager (virt-manager) to create an Ubuntu 22.04 VM on local linux machine. Used system requirements as per Wazuh docucmentation. ![image](https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/WazuhVMReqs.png?raw=true)
+- Use Virtual Machine Manager (virt-manager/QEMU/KVM) to create an Ubuntu 22.04 VM on local linux machine. Used system requirements as per Wazuh docucmentation.
+![image](https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/WazuhVMReqs.png?raw=true)
 
 ## Step 2: Install Wazuh Manager/Server onto Ubuntu Server VM
-
+- Install Wazuh Server onto VM Server with following bash script from Wazuh documentation:
+...
+curl -sO https://packages.wazuh.com/4.11/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+...
+  
 ## Step 3: Create VM for Wazuh Agent
 -  Clone previous Ubuntu VM in virtmanager for use as Agent VM
 -  Install Wazuh Agent onto Agent VM
