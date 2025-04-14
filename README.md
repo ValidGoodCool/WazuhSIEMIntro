@@ -12,7 +12,12 @@ Following John Hammonds Wazuh SIEM intro Lab.
 ```
 curl -sO https://packages.wazuh.com/4.11/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 ```
-  
+- During installation Wazuh admin login details and password are printed to shell. These were saved to a text file for reference.
+- Use linux command to retrieve the ip address of the VM Wazuh server :
+```
+ip a
+ ```
+
 ## Step 3: Create VM for Wazuh Agent
 -  Clone previous Ubuntu VM in virtmanager for use as Agent VM
 -  Install Wazuh Agent onto Agent VM
