@@ -9,9 +9,9 @@ Following John Hammonds Wazuh SIEM intro Lab.
 
 ## Step 2: Install Wazuh Manager/Server onto Ubuntu Server VM
 - Install Wazuh Server onto VM Server with following bash script from Wazuh documentation:
-...
+```
 curl -sO https://packages.wazuh.com/4.11/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
-...
+```
   
 ## Step 3: Create VM for Wazuh Agent
 -  Clone previous Ubuntu VM in virtmanager for use as Agent VM
