@@ -20,6 +20,7 @@ ip a
 
 ## Step 3: Create VM for Wazuh Agent
 -  Clone previous Ubuntu VM in virtmanager for use as Agent VM
+![image](https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/ClonedVMAgent.png)
 -  Install Wazuh Agent onto Agent VM
 
 ## Step 4: Enable vulnerability detection
