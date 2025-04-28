@@ -31,18 +31,24 @@ ip a
 <p align="left">
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/AddAgentDialogue.png"/>
 </p>
--   This created the following bash install script which is copied and run in the terminal
+
+-  This created the following bash install script which is copied and run in the terminal
 
 ```
 wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.11.2-1_amd64.deb && sudo WAZUH_MANAGER='192.168.122.228' WAZUH_AGENT_NAME='AgentPlusOne' dpkg -i ./wazuh-agent_4.11.2-1_amd64.deb
 ```
-- The following bash commands are run to add the wazuh agent service to the linux service manager
+-  The following bash commands are run to add the wazuh agent service to the linux service manager
 
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 ```
+-  This step can be repeated for multiple agents.
+-  Reload Wazuh dashboard. Navigate to Agents Management summary page to confirm addition of new agent.
+<p align="left">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/AddAgentDialogue.png"/>
+</p>
 
 ## Step 4: Enable vulnerability detection
 ## Step 5: Install Invoke Atomics
