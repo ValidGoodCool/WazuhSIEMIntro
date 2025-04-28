@@ -18,7 +18,7 @@ curl -sO https://packages.wazuh.com/4.11/wazuh-install.sh && sudo bash ./wazuh-i
 - Use linux command to retrieve the ip address of the VM Wazuh server :
 ```
 ip a
- ```
+```
 
 ## Step 3: Create VM for Wazuh Agent
 -  Clone previous Ubuntu VM in virtmanager for use as Agent VM
@@ -32,16 +32,17 @@ ip a
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/AddAgentDialogue.png"/>
 </p>
 -   This created the following bash install script which is copied and run in the terminal
+
 ```
 wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.11.2-1_amd64.deb && sudo WAZUH_MANAGER='192.168.122.228' WAZUH_AGENT_NAME='AgentPlusOne' dpkg -i ./wazuh-agent_4.11.2-1_amd64.deb
 ```
 - The following bash commands are run to add the wazuh agent service to the linux service manager
+
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 ```
--  
 
 ## Step 4: Enable vulnerability detection
 ## Step 5: Install Invoke Atomics
