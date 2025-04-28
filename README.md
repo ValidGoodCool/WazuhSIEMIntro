@@ -27,7 +27,12 @@ ip a
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/ClonedVMAgent.png"/>
 </p>
 
--  Install Wazuh Agent onto Agent VM
+-  Use Wazuh guide to add new agent details
+<p align="left">
+    <img src=""/>
+</p>
+-   to Install Wazuh Agent onto Agent VM
+-  
 
 ## Step 4: Enable vulnerability detection
 ## Step 5: Install Invoke Atomics
