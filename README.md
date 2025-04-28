@@ -46,8 +46,9 @@ sudo systemctl start wazuh-agent
 ```
 -  This step can be repeated for multiple agents.
 -  Reload Wazuh dashboard. Navigate to Agents Management summary page to confirm addition of new agent.
-<p align="left">
-    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/AddAgentDialogue.png"/>
+
+<p align="centre">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/AgentAddedSuccess.png"/>
 </p>
 
 ## Step 4: Enable vulnerability detection
