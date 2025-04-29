@@ -52,8 +52,17 @@ sudo systemctl start wazuh-agent
 </p>
 
 ## Step 4: Enable vulnerability detection
-- As per Wazuh documentation, to enable vulernability detection a setting in the wazuh settings file on the server must be changed. This file is located at '/var/ossec/etc'.
+- As per Wazuh documentation, to enable vulernability detection a setting in the wazuh settings file on the server must be changed. This file is located at `/var/ossec/etc`.
 
+<p align="left">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/VulnScanOnConfig.png"/>
+</p>
+
+- After Vulnerability Scan setting has been enabled. Confirm funcionality is now available.
+
+<p align="left">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/VulnScanOnConfig.png"/>
+</p>
 ## Step 5: Install Invoke Atomics
 ## Step 6: Create security events with Invoke Atomics.
 
