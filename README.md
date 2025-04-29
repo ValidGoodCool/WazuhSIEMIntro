@@ -52,6 +52,8 @@ sudo systemctl start wazuh-agent
 </p>
 
 ## Step 4: Enable vulnerability detection
+- As per Wazuh documentation, to enable vulernability detection a setting in the wazuh settings file on the server must be changed. This file is located at '/var/ossec/etc'.
+
 ## Step 5: Install Invoke Atomics
 ## Step 6: Create security events with Invoke Atomics.
 
