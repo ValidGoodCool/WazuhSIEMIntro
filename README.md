@@ -60,9 +60,10 @@ sudo systemctl start wazuh-agent
 
 - After Vulnerability Scan setting has been enabled. Confirm funcionality is now available.
 
-<p align="left">
-    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/VulnScanOnConfig.png"/>
+<p align="centre">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/ConfirmVulnDetect.png"/>
 </p>
+
 ## Step 5: Install Invoke Atomics
 ## Step 6: Create security events with Invoke Atomics.
 
