@@ -65,5 +65,15 @@ sudo systemctl start wazuh-agent
 </p>
 
 ## Step 5: Install Invoke Atomics
+- Invoke-Atomic is a automated cybersecurity red team test framework. It is utilised to find vulnerabilities on a system. I will employ this tool to test the vulnerabilties of my linuxagent vm and the abilties of Wazuh to display these in a meanful way.
+- Install powershell classic on linux vm:
+`sudo snap install powershell --classic`
+- Open powershell by entering `pwsh` in terminal.
+- Copy and run the following script from the Invoke-Atomics github to import the test framework
+- 
+<p align="left">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/InstallAtomics.png"/>
+</p>
+- 
 ## Step 6: Create security events with Invoke Atomics.
 
