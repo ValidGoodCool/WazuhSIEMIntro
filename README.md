@@ -74,6 +74,5 @@ sudo systemctl start wazuh-agent
 <p align="left">
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/InstallAtomics.png"/>
 </p>
-- 
 ## Step 6: Create security events with Invoke Atomics.
 
