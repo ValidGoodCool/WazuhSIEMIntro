@@ -81,3 +81,8 @@ sudo systemctl start wazuh-agent
 <p align="left">
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/InvokeAtomicTestCompleted.png"/>
 </p>
+
+- I then confirmed the events were detected by the Wazuh EPD agent in the Wazuh dashboard. This confirms success.
+<p align="centre">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/EventsDetected.png"/>
+</p>
