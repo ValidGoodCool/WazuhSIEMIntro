@@ -70,9 +70,10 @@ sudo systemctl start wazuh-agent
 `sudo snap install powershell --classic`
 - Open powershell by entering `pwsh` in terminal.
 - Copy and run the following script from the Invoke-Atomics github to import the test framework
-- 
+
 <p align="left">
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/InstallAtomics.png"/>
 </p>
+
 ## Step 6: Create security events with Invoke Atomics.
 
