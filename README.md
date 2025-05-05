@@ -79,5 +79,5 @@ sudo systemctl start wazuh-agent
 - Create security events with Invoke-Atomics. Here I used a mitre test technique common on linux environments.
 
 <p align="left">
-    <img src="[https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/ConfirmVulnDetect.png](https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/InvokeAtomicTestCompleted.png)"/>
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/ConfirmVulnDetect.png](https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/InvokeAtomicTestCompleted.png"/>
 </p>
