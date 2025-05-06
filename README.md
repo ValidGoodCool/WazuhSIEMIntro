@@ -145,3 +145,8 @@ fi
 
 exit 0;
 ```
+- Change the ownership and permissions of this bash script:
+```
+sudo chmod 750 /var/ossec/active-response/bin/remove-threat.sh
+sudo chown root:wazuh /var/ossec/active-response/bin/remove-threat.sh
+```
