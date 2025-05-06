@@ -150,3 +150,5 @@ exit 0;
 sudo chmod 750 /var/ossec/active-response/bin/remove-threat.sh
 sudo chown root:wazuh /var/ossec/active-response/bin/remove-threat.sh
 ```
+- Restart Wazuh Agent to apply changes:
+`sudo systemctl restart wazuh-agent`
