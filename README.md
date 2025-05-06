@@ -152,3 +152,6 @@ sudo chown root:wazuh /var/ossec/active-response/bin/remove-threat.sh
 ```
 - Restart Wazuh Agent to apply changes:
 `sudo systemctl restart wazuh-agent`
+
+- Now that the Wazuh ubuntu agent is set up, we need to configure the Wazuh Server.
+- 
