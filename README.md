@@ -92,10 +92,13 @@ sudo systemctl start wazuh-agent
 - The Wazuh documentation includes a guide to set up detection and removal of amlware using the VirusTotal API. The following follows this guide.
 - Enable File Integrity Monitoring by accessing the Wazuh Agent's `ossec.conf` file in the `/var/ossec/etc` folder.
 <p align="left">
-    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/VulnScanOnConfig.png"/>
+    <img src="PIC HERE"/>
 </p>
 
 - Add `/home/nick/Downloads` folder path to the File Integrity Monitoring section
 <p align="left">
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/AddFolderActiveFileMonitoring.png"/>
 </p>
+- Install `jq`, a utility that processes JSON input from the active response script:
+```sudo apt update
+sudo apt -y install jq```
