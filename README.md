@@ -100,5 +100,8 @@ sudo systemctl start wazuh-agent
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/AddFolderActiveFileMonitoring.png"/>
 </p>
 - Install `jq`, a utility that processes JSON input from the active response script:
-```sudo apt update
-sudo apt -y install jq```
+
+```
+sudo apt update
+sudo apt -y install jq
+```
