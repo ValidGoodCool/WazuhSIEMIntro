@@ -171,4 +171,11 @@ sudo chown root:wazuh /var/ossec/active-response/bin/remove-threat.sh
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/WazuhServerRemoveThreatRules.png"/>
 </p>
 
-- 
+- Add the following rules to the Wazuh server `/var/ossec/etc/rules/local_rules.xml` file to alert about the Active Response results:
+
+<p align="left">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/WazuhServerActiveResponseResultsRules.png"/>
+</p>
+
+- Restart the Wazuh Server service:
+`sudo systemctl restart wazuh-manager`
