@@ -155,15 +155,20 @@ sudo chown root:wazuh /var/ossec/active-response/bin/remove-threat.sh
 
 - Now that the Wazuh ubuntu agent is set up, we need to configure the Wazuh Server.
 - Add the following rules from the Wazuh Documents to the `/var/ossec/etc/rules/local_rules.xml` rules file. These rules alert about changes in the `/Downloads` directory that are detected by FIM scans.
+
 <p align="left">
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/WazuhServerFIMServerRules.png"/>
 </p>
+
 - Add the following rules to the `/var/ossec/etc/ossec.conf` which includes my api key for VirusTotal:
+
 <p align="left">
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/WazuhServerVirusTotalRules.png"/>
 </p>
+
 - Append the following block rules to the `/var/ossec/etc/ossec.conf`. This enables Active Response and triggers the remove-threat executable when the VirusTotal query returns positive matches for threats
 <p align="left">
     <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/WazuhServerRemoveThreatRules.png"/>
 </p>
 
+- 
