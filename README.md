@@ -1,6 +1,13 @@
 # WazuhSIEMIntro
-Following John Hammonds Wazuh SIEM intro Lab.
+This project is based on John Hammond's Wazuh SIEM intro Lab. It follows the Wazuh documentation on setting up a Wazuh SIEM system on a network that enables Vulnerability Scanning, File Integrity Management and executes Automated Response scripts across multiple agents on a network. The primary goals of this lab are:
+- Set up a SIEM server, ingest and analyse logs from agents on a network.
+- Run Vulnerability scans on agents and view results on Wazuh
+- Configure File Integrity Management on agents and view results in Wazuh.
+- Configure an Automated Response script which integrates Open Source Intelligence on agents.
+- Simulate real-world attack to test Automated Response script.
+  
 ## Goals
+
 ## Steps
 
 ## Step 1: Create VM for Wazuh Server
@@ -89,7 +96,7 @@ sudo systemctl start wazuh-agent
 
 ## Step 7: Set up Automated Response with VirusTotal
 
-- The Wazuh documentation includes a guide to set up detection and removal of amlware using the VirusTotal API. The following follows this guide.
+- The Wazuh documentation includes a guide to set up detection and removal of malware using the VirusTotal API. The following follows this guide.
 - Enable File Integrity Monitoring by accessing the Wazuh Agent's `ossec.conf` file in the `/var/ossec/etc` folder.
 <p align="left">
     <img src="PIC HERE"/>
