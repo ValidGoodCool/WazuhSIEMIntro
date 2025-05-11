@@ -179,3 +179,16 @@ sudo chown root:wazuh /var/ossec/active-response/bin/remove-threat.sh
 
 - Restart the Wazuh Server service:
 `sudo systemctl restart wazuh-manager`
+
+## Step 8: Test Automated Response
+- To test the automated reponse script I will be emulating an attack by downloading the industry standard EICAR Test File to the Downloads folder of the linuxAgent VM.
+
+<p align="left">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/EICARTestFile.png"/>
+</p>
+
+- Below is a screenshot of the Wazuh dashboard displaying logs of successful detection and deletion of the EICAR test file. Project success!
+
+<p align="left">
+    <img src="https://github.com/ValidGoodCool/WazuhSIEMIntro/blob/main/EICARFileDeleted.png"/>
+</p>
